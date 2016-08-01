@@ -1,2 +1,2 @@
 # SAAS Rails App
-== by alekseylovchikov
+by alekseylovchikov
