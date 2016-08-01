@@ -17,3 +17,21 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// variables
+$primary-color: #ff8585;
+$text-color: #585858;
+
+h1 {
+  color: $text-color;
+}
+
+h1:after {
+  display: block;
+  content: "";
+  width: 30%;
+  height: 2px;
+  margin-left: 35%;
+  margin-top: 16px;
+  background-color: $primary-color;
+}
