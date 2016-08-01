@@ -22,8 +22,13 @@
 $primary-color: #ff8585;
 $text-color: #585858;
 
+body {
+  font-size: 22px;
+}
+
 h1 {
   color: $text-color;
+  font-size: 200%;
 }
 
 h1:after {
