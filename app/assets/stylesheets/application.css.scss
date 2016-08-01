@@ -19,8 +19,13 @@
 @import "bootstrap";
 
 // variables
-$primary-color: #ff8585;
+$primary-color: #69c8c4;
 $text-color: #585858;
+
+$navbar-background-color: #627daa;
+$navbar-border-color: #5e7da9;
+$navbar-link-color: #fff;
+$navbar-link-color-hover: #f1f1f1;
 
 body {
   font-size: 22px;
@@ -29,6 +34,7 @@ body {
 h1 {
   color: $text-color;
   font-size: 200%;
+  text-align: center;
 }
 
 h1:after {
@@ -39,6 +45,52 @@ h1:after {
   margin-left: 35%;
   margin-top: 16px;
   background-color: $primary-color;
+}
+
+.jumbotron {
+  background-image: url(https://financesonline.com/uploads/2015/05/saas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: top;
+  
+  height: 280px;
+}
+
+// navbar styles
+
+.navbar-default {
+  background-color: $navbar-background-color;
+  border-color: $navbar-border-color;
+}
+
+.navbar-default .navbar-brand {
+  color: $navbar-link-color;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: $navbar-link-color-hover;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $navbar-link-color;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active {
+  color: $navbar-link-color-hover;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #6a87b7;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
