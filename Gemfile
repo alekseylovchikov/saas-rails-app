@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # front-end
 gem 'normalize-rails'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'byebug'
