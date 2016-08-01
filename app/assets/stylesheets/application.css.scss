@@ -23,7 +23,7 @@
 
 // variables
 $primary-color: #69c8c4;
-$text-color: #585858;
+$text-color: #383838;
 
 $navbar-background-color: #627daa;
 $navbar-border-color: #5e7da9;
@@ -48,7 +48,8 @@ h1:after {
   height: 2px;
   margin-left: 35%;
   margin-top: 16px;
-  background-color: $primary-color;
+  // background-color: $primary-color;
+  background: linear-gradient(to left, #2980b9, #2c3e50);
 }
 
 .jumbotron {
